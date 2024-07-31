@@ -1,0 +1,239 @@
+{
+  "cloud_events_version": "0.1",
+  "content_type": "application/json",
+  "data": {
+    "additional_details": {
+      "X-Real-Port": 59759
+    },
+    "availability_domain": "AD1",
+    "compartment_id": "ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq",
+    "compartment_name": "_ToBeDeleted",
+    "defined_tags": null,
+    "event_grouping_id": "48B9306A3B2640E082207DA69B506D99/85FD3560F22B8DD83D4EDE443919E76D",
+    "event_name": "ListDbSystems",
+    "freeform_tags": null,
+    "identity": {
+      "auth_type": "instance",
+      "caller_id": null,
+      "caller_name": null,
+      "console_session_id": null,
+      "credentials": "ST$eyJraWQiOiJhc3dfaWFkXzE3MTU2NDgwNzIzNzciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJvY2lkMS5pbnN0YW5jZS5vYzEuaWFkLmFudXdjbGpzYzNhZGhocWN6cmEzbGNjazRxZm1nYm12NWltcWVscGFvNnp2c2JneW14M2luZ2hvdG9rcSIsIm9wYy1jZXJ0dHlwZSI6Imluc3RhbmNlIiwiaXNzIjoiYXV0aFNlcnZpY2Uub3JhY2xlLmNvbSIsImZwcmludCI6IjBDOkU5OjYwOjdCOkQ1OjZEOkNFOjdBOjQ5OkY0OjUxOjBBOjVDOkJGOkE5OkI1OjU3Ojg0OjQ5OjZGIiwicHR5cGUiOiJpbnN0YW5jZSIsImF1ZCI6Im9jaSIsIm9wYy10YWciOiJWMyxvY2lkMS50ZW5hbmN5Lm9jMS4uYWFhYWFhYWFhM3FtanhyNDN0amV4eDc1cjZnd2s2dmp3MjJlcm1vaGJ3MnZieHloY3prc2dqaXI3eGRxLEFBQUFBUUFBQUFBQUFBQ2EsQUFBQUFRQUFBQUFBQUFESiIsInR0eXBlIjoieDUwOSIsIm9wYy1pbnN0YW5jZSI6Im9jaWQxLmluc3RhbmNlLm9jMS5pYWQuYW51d2NsanNjM2FkaGhxY3pyYTNsY2NrNHFmbWdibXY1aW1xZWxwYW82enZzYmd5bXgzaW5naG90b2txIiwiZXhwIjoxNzIwOTk5MjA4LCJvcGMtY29tcGFydG1lbnQiOiJvY2lkMS5jb21wYXJ0bWVudC5vYzEuLmFhYWFhYWFhdmVnendzaWdkdnlqdHNxNXJ5cXVqd2NrejVqbTVsd2twaGhkcDJhNmRxY3VyeG5ta3FhYSIsImlhdCI6MTcyMDk5ODAwOCwianRpIjoiMzE4NDliOTQtOGY0My00ZGQxLThmZDUtNDdmMWYyZDVmYmVlIiwidGVuYW50Ijoib2NpZDEudGVuYW5jeS5vYzEuLmFhYWFhYWFhYTNxbWp4cjQzdGpleHg3NXI2Z3drNnZqdzIyZXJtb2hidzJ2Ynh5aGN6a3NnamlyN3hkcSIsImp3ayI6IntcImtpZFwiOlwiMEM6RTk6NjA6N0I6RDU6NkQ6Q0U6N0E6NDk6RjQ6NTE6MEE6NUM6QkY6QTk6QjU6NTc6ODQ6NDk6NkZcIixcIm5cIjpcInVWdDFxVFN0ZDBZLXdmUEN0RVZfWkdpX0xoMXVWODZWeHJmeG1oTVp6UV9jZ3FsQ1h5VVp5UXBKaXdjQUdCQUZMNVlVbXlPVS1OenB6bDV5Z1NfM21rMjJpZWxfX3dKVFV3QjIzNDZ5WW9qdGtqUHpQZENsd1ZmTElDVmtGMWtvWUhSa3gxeFc0NDRnVGJsM0dsci1GVGh4WGtDUU9SWnFNbXpoMTNrNjA0N1VhVko1TC1PQ180M2dZQWppbkFJY0V5Qm5PZ2syOEVTeDFNajRUNjg5ZjQyc0xDb2RFRFlSYldNTlhhSmoyNXBCaVk3RnFwMTd6cUk3S3cyeXZoUEktWUlUMTVsZTNXZVVvZ0M3MkUzVVhrZXlaQ0V5Sy1qbzd0Uzk4N21lVUl3RWlBOXQ4YVk0T3J5ekhiMnlZSWttWEItWDBLS3RaZGhtZ1Y5NEhTMkNxd1wiLFwiZVwiOlwiQVFBQlwiLFwia3R5XCI6XCJSU0FcIixcImFsZ1wiOlwiUlMyNTZcIixcInVzZVwiOlwic2lnXCJ9Iiwib3BjLXRlbmFudCI6Im9jaWQxLnRlbmFuY3kub2MxLi5hYWFhYWFhYWEzcW1qeHI0M3RqZXh4NzVyNmd3azZ2ancyMmVybW9oYncydmJ4eWhjemtzZ2ppcjd4ZHEifQ.RG7bT1Kxrbd4Dc3EA5LS52XJe_SJCWmIrRxR6cMgfh8wnsRPl2oE2gyd2JfA3cVbnRYHUiav0B_ynLtWsLlcvJxGqBYPc7jZ6saKHL9M6YmPMYpo6NhfRSdjSG_S4t_sRfbNmukhbdnHQHo9Wt4CxUAPlUB6qqr9B5AJS399E5VkNT-NNvyUT3poYy_IUxX_uAcYYKw1mdBnG96O4k2p8dQ2g1foYuibhGWvwi91eEkArdhngEXLskzVoeu_IzOtWGRl3Krxj98VuR1hdm5oZFaf1zkM3X1pQQAu1BhHizh_vBzh6_sjI37LhNewlIPBV2Ceo2cA_3eN1sKtm7Weug",
+      "ip_address": "150.136.128.129",
+      "principal_id": "ocid1.instance.oc1.iad.anuwcljsc3adhhqczra3lcck4qfmgbmv5imqelpao6zvsbgymx3inghotokq",
+      "principal_name": null,
+      "tenant_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+      "user_agent": "Oracle-PythonSDK/2.98.0 (python 3.6.15; aarch64-Linux)"
+    },
+    "request": {
+      "action": "GET",
+      "headers": {
+        "Accept": [
+          "application/json"
+        ],
+        "Accept-Encoding": [
+          "gzip, deflate"
+        ],
+        "Authorization": [
+          "Signature algorithm=\"rsa-sha256\",headers=\"date (request-target) host\",keyId=\"ST$eyJraWQiOiJhc3dfaWFkXzE3MTU2NDgwNzIzNzciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJvY2lkMS5pbnN0YW5jZS5vYzEuaWFkLmFudXdjbGpzYzNhZGhocWN6cmEzbGNjazRxZm1nYm12NWltcWVscGFvNnp2c2JneW14M2luZ2hvdG9rcSIsIm9wYy1jZXJ0dHlwZSI6Imluc3RhbmNlIiwiaXNzIjoiYXV0aFNlcnZpY2Uub3JhY2xlLmNvbSIsImZwcmludCI6IjBDOkU5OjYwOjdCOkQ1OjZEOkNFOjdBOjQ5OkY0OjUxOjBBOjVDOkJGOkE5OkI1OjU3Ojg0OjQ5OjZGIiwicHR5cGUiOiJpbnN0YW5jZSIsImF1ZCI6Im9jaSIsIm9wYy10YWciOiJWMyxvY2lkMS50ZW5hbmN5Lm9jMS4uYWFhYWFhYWFhM3FtanhyNDN0amV4eDc1cjZnd2s2dmp3MjJlcm1vaGJ3MnZieHloY3prc2dqaXI3eGRxLEFBQUFBUUFBQUFBQUFBQ2EsQUFBQUFRQUFBQUFBQUFESiIsInR0eXBlIjoieDUwOSIsIm9wYy1pbnN0YW5jZSI6Im9jaWQxLmluc3RhbmNlLm9jMS5pYWQuYW51d2NsanNjM2FkaGhxY3pyYTNsY2NrNHFmbWdibXY1aW1xZWxwYW82enZzYmd5bXgzaW5naG90b2txIiwiZXhwIjoxNzIwOTk5MjA4LCJvcGMtY29tcGFydG1lbnQiOiJvY2lkMS5jb21wYXJ0bWVudC5vYzEuLmFhYWFhYWFhdmVnendzaWdkdnlqdHNxNXJ5cXVqd2NrejVqbTVsd2twaGhkcDJhNmRxY3VyeG5ta3FhYSIsImlhdCI6MTcyMDk5ODAwOCwianRpIjoiMzE4NDliOTQtOGY0My00ZGQxLThmZDUtNDdmMWYyZDVmYmVlIiwidGVuYW50Ijoib2NpZDEudGVuYW5jeS5vYzEuLmFhYWFhYWFhYTNxbWp4cjQzdGpleHg3NXI2Z3drNnZqdzIyZXJtb2hidzJ2Ynh5aGN6a3NnamlyN3hkcSIsImp3ayI6IntcImtpZFwiOlwiMEM6RTk6NjA6N0I6RDU6NkQ6Q0U6N0E6NDk6RjQ6NTE6MEE6NUM6QkY6QTk6QjU6NTc6ODQ6NDk6NkZcIixcIm5cIjpcInVWdDFxVFN0ZDBZLXdmUEN0RVZfWkdpX0xoMXVWODZWeHJmeG1oTVp6UV9jZ3FsQ1h5VVp5UXBKaXdjQUdCQUZMNVlVbXlPVS1OenB6bDV5Z1NfM21rMjJpZWxfX3dKVFV3QjIzNDZ5WW9qdGtqUHpQZENsd1ZmTElDVmtGMWtvWUhSa3gxeFc0NDRnVGJsM0dsci1GVGh4WGtDUU9SWnFNbXpoMTNrNjA0N1VhVko1TC1PQ180M2dZQWppbkFJY0V5Qm5PZ2syOEVTeDFNajRUNjg5ZjQyc0xDb2RFRFlSYldNTlhhSmoyNXBCaVk3RnFwMTd6cUk3S3cyeXZoUEktWUlUMTVsZTNXZVVvZ0M3MkUzVVhrZXlaQ0V5Sy1qbzd0Uzk4N21lVUl3RWlBOXQ4YVk0T3J5ekhiMnlZSWttWEItWDBLS3RaZGhtZ1Y5NEhTMkNxd1wiLFwiZVwiOlwiQVFBQlwiLFwia3R5XCI6XCJSU0FcIixcImFsZ1wiOlwiUlMyNTZcIixcInVzZVwiOlwic2lnXCJ9Iiwib3BjLXRlbmFudCI6Im9jaWQxLnRlbmFuY3kub2MxLi5hYWFhYWFhYWEzcW1qeHI0M3RqZXh4NzVyNmd3azZ2ancyMmVybW9oYncydmJ4eWhjemtzZ2ppcjd4ZHEifQ.RG7bT1Kxrbd4Dc3EA5LS52XJe_SJCWmIrRxR6cMgfh8wnsRPl2oE2gyd2JfA3cVbnRYHUiav0B_ynLtWsLlcvJxGqBYPc7jZ6saKHL9M6YmPMYpo6NhfRSdjSG_S4t_sRfbNmukhbdnHQHo9Wt4CxUAPlUB6qqr9B5AJS399E5VkNT-NNvyUT3poYy_IUxX_uAcYYKw1mdBnG96O4k2p8dQ2g1foYuibhGWvwi91eEkArdhngEXLskzVoeu_IzOtWGRl3Krxj98VuR1hdm5oZFaf1zkM3X1pQQAu1BhHizh_vBzh6_sjI37LhNewlIPBV2Ceo2cA_3eN1sKtm7Weug\",signature=\"*****\",version=\"1\""
+        ],
+        "Connection": [
+          "keep-alive"
+        ],
+        "Content-Type": [
+          "application/json"
+        ],
+        "Date": [
+          "Sun, 14 Jul 2024 23:00:11 GMT"
+        ],
+        "User-Agent": [
+          "Oracle-PythonSDK/2.98.0 (python 3.6.15; aarch64-Linux)"
+        ],
+        "opc-client-info": [
+          "Oracle-PythonSDK/2.98.0"
+        ],
+        "opc-client-retries": [
+          "true"
+        ],
+        "opc-request-id": [
+          "48B9306A3B2640E082207DA69B506D99"
+        ]
+      },
+      "id": "48B9306A3B2640E082207DA69B506D99/85FD3560F22B8DD83D4EDE443919E76D/5923D3B07BAAB130D286ED127DBD5E02",
+      "parameters": {
+        "compartmentId": [
+          "ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq"
+        ]
+      },
+      "path": "/20190415/dbSystems"
+    },
+    "resource_id": null,
+    "resource_name": "",
+    "response": {
+      "headers": {
+        "Connection": [
+          "close"
+        ],
+        "Content-Length": [
+          "3"
+        ],
+        "Content-Type": [
+          "application/json"
+        ],
+        "Date": [
+          "Sun, 14 Jul 2024 23:00:11 GMT"
+        ],
+        "Strict-Transport-Security": [
+          "max-age=31536000; includeSubDomains;"
+        ],
+        "Vary": [
+          "Accept-Encoding"
+        ],
+        "X-Content-Type-Options": [
+          "nosniff",
+          "nosniff"
+        ],
+        "opc-request-id": [
+          "48B9306A3B2640E082207DA69B506D99/85FD3560F22B8DD83D4EDE443919E76D/5923D3B07BAAB130D286ED127DBD5E02"
+        ]
+      },
+      "message": "ListDbSystems succeeded",
+      "payload": {},
+      "response_time": "2024-07-14T23:00:11.108000+00:00",
+      "status": "200"
+    },
+    "state_change": {
+      "current": null,
+      "previous": null
+    }
+  },
+  "event_id": "de8b0f72-67c2-4318-9149-13ed44329472",
+  "event_time": "2024-07-14T23:00:11.108000+00:00",
+  "event_type": "com.oraclecloud.Mysqlaas.ListDbSystems",
+  "event_type_version": "2.0",
+  "source": "Mysqlaas"
+}
+{
+  "cloud_events_version": "0.1",
+  "content_type": "application/json",
+  "data": {
+    "additional_details": {
+      "namespace": "ociateam"
+    },
+    "availability_domain": "AMS-AD-1",
+    "compartment_id": "ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq",
+    "compartment_name": "_ToBeDeleted",
+    "defined_tags": null,
+    "event_grouping_id": "ams-1:zm-wCVyhk-EM941yvIqzJrg75yXgTUpTC-39TfwoIvS7KcRvwAP9RiMNufNHgCPS",
+    "event_name": "ListBuckets",
+    "freeform_tags": null,
+    "identity": {
+      "auth_type": null,
+      "caller_id": null,
+      "caller_name": null,
+      "console_session_id": null,
+      "credentials": "ST$eyJraWQiOiJhc3dfaWFkXzE3MTU2NDgwNzIzNzciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJvY2ktb3B0aW1pemVyIiwic3ZjIjoib2NpLW9wdGltaXplciIsImlzX3N2YyI6InRydWUiLCJvcGMtY2VydHR5cGUiOiJpbnN0YW5jZSIsImlzcyI6ImF1dGhTZXJ2aWNlLm9yYWNsZS5jb20iLCJmcHJpbnQiOiIyODozMDo5ODpGMzo3NTo4ODo1NzpCNTo4Mjo3MzpENjpCNzpDMjpFQTpBMDozRTo1NzpCRDowMjowMDowQTpBRjozMjo5ODo2OTozOTo2RjowQzpDQzo3MzoyNjoxQSIsInB0eXBlIjoic2VydmljZSIsInN2Y0hvc3RpbmdUZW5hbnRJZCI6Im9jaWQxLnRlbmFuY3kub2MxLi5hYWFhYWFhYTY0ZDRyb2QyY2dycWxleXNrZ2FvNHdrYmVvc3lscWVsbG1lcWJ2eHhreWJob25scmJna2EiLCJhdWQiOiJvY2kiLCJ0dHlwZSI6Ing1MDkiLCJvcGMtaW5zdGFuY2UiOiJvY2lkMS5pbnN0YW5jZS5vYzEuaWFkLmFudXdjbGpzcWNpaWNscWM0cWJlNmdkeHB0ZGt3ZTZxN3VrdjR1YmV5ZWNwd2J1Zmdqa2EyZnNqc25mcSIsImV4cCI6MTcyMTAwMzgxMywib3BjLWNvbXBhcnRtZW50Ijoib2NpZDEuY29tcGFydG1lbnQub2MxLi5hYWFhYWFhYXZ2M2lnY2g3cWhocGdkdmQ1bGR2bGZuNXJoNnRnYW14dmZmbXRpbmVkZzRoc3BibHFvY3EiLCJpYXQiOjE3MjA5OTc3ODksImp0aSI6ImY3OTVmZTEzLTFhYWQtNGUxYi05MjRmLWVhZDAzM2I3MDAzOSIsInRlbmFudCI6Im9jaWQxLnRlbmFuY3kub2MxLi5hYWFhYWFhYTY0ZDRyb2QyY2dycWxleXNrZ2FvNHdrYmVvc3lscWVsbG1lcWJ2eHhreWJob25scmJna2EiLCJqd2siOiJ7XCJraWRcIjpcIjI4OjMwOjk4OkYzOjc1Ojg4OjU3OkI1OjgyOjczOkQ2OkI3OkMyOkVBOkEwOjNFOjU3OkJEOjAyOjAwOjBBOkFGOjMyOjk4OjY5OjM5OjZGOjBDOkNDOjczOjI2OjFBXCIsXCJuXCI6XCJuTE4yQllKdEV2VnQ3UDVXRWRtTHNXNHZORkdPc2JjSmhQWkVfbTZRN05CSTJLekdDaEFXcXRJRENnc3ZPWnJidkNjamdpT0Iwc2k1ajAybTZzU1A5Mm5BM3hPV2V2aTZ2a0UtLUFCcDhKQU14TjBUMWMzWndETVpqcmtMUnBPcGNMc29ZODZHcUhpSG1uUUMxWE1iUVd1aEtoU21rdDBWb1prT1l2VXV4SDlZNDh0ajlOQ1BRUkZyOTh2V05kSldhSjdydEpEanVhOE9iVUo3cUhyclJGR0s5TkFCWTBSM2hraDQtVExKQ1BGR0stS254SG1DdkxLaTB2MTYxNTVLSnlhOFBZQmhMZm9CalcwUjVhbGtNa2xSVm1DSThac1EtNmdSM2tEbXpJRGdEU2RWd1NmRHJaNWplYi12WHNZTWZPa2t4NTdEMlhoU0VTQ3V5RGxBcndcIixcImVcIjpcIkFRQUJcIixcImt0eVwiOlwiUlNBXCIsXCJhbGdcIjpcIlJTMjU2XCIsXCJ1c2VcIjpcInNpZ1wifSIsIm9wYy10ZW5hbnQiOiJvY2lkMS50ZW5hbmN5Lm9jMS4uYWFhYWFhYWE2NGQ0cm9kMmNncnFsZXlza2dhbzR3a2Jlb3N5bHFlbGxtZXFidnh4a3liaG9ubHJiZ2thIn0.cQho_oD4l3o0NRJdKFFQexr5fcMEPk4-0OTngxGD2P5jwTVWKit760pAma9LxfZs_B8YYbgtxE7pRrAhxLcQDlRCDAZ1IVp3UQLC6ptYzAL9dAy1bs4DM1Z9ay5JioDFy4QibSNh0-Lz9alzkVLxUEv-VqipYp9TeKlLdRwCr4fixlr_RqmP7WX4ibGRCmC1uWfeTksFt6k6Ikf3C2stJb0RDoiJAF1rEBrRpQOOLaUdhnlXDNP9_5Pjmlh6bZYzMVtBTh2Ksd62UZID20wDU7S8GvjVtHv6A4FuSloi576aUc0LFGz48paClS2KRwo5aZWP8mcV4WQ-KVbkUo9uYA",
+      "ip_address": "130.35.16.187",
+      "principal_id": "oci-optimizer/283098F3758857B58273D6B7C2EAA03E57BD02000AAF329869396F0CCC73",
+      "principal_name": "oci-optimizer",
+      "tenant_id": "ocid1.tenancy.oc1..aaaaaaaa64d4rod2cgrqleyskgao4wkbeosylqellmeqbvxxkybhonlrbgka",
+      "user_agent": "Oracle-JavaSDK/2.70.0 (Linux/5.4.17-2136.331.7.el7uek.x86_64; Java/17.0.11; Java HotSpot(TM) 64-Bit Server VM/17.0.11+7-LTS-jvmci-23.0-b34)"
+    },
+    "request": {
+      "action": "GET",
+      "headers": {
+        "Accept": [
+          "application/json"
+        ],
+        "Connection": [
+          "keep-alive"
+        ],
+        "User-Agent": [
+          "Oracle-JavaSDK/2.70.0 (Linux/5.4.17-2136.331.7.el7uek.x86_64; Java/17.0.11; Java HotSpot(TM) 64-Bit Server VM/17.0.11+7-LTS-jvmci-23.0-b34)"
+        ],
+        "authorization": [
+          "Signature headers=\"date (request-target) host\",keyId=\"ST$eyJraWQiOiJhc3dfaWFkXzE3MTU2NDgwNzIzNzciLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJvY2ktb3B0aW1pemVyIiwic3ZjIjoib2NpLW9wdGltaXplciIsImlzX3N2YyI6InRydWUiLCJvcGMtY2VydHR5cGUiOiJpbnN0YW5jZSIsImlzcyI6ImF1dGhTZXJ2aWNlLm9yYWNsZS5jb20iLCJmcHJpbnQiOiIyODozMDo5ODpGMzo3NTo4ODo1NzpCNTo4Mjo3MzpENjpCNzpDMjpFQTpBMDozRTo1NzpCRDowMjowMDowQTpBRjozMjo5ODo2OTozOTo2RjowQzpDQzo3MzoyNjoxQSIsInB0eXBlIjoic2VydmljZSIsInN2Y0hvc3RpbmdUZW5hbnRJZCI6Im9jaWQxLnRlbmFuY3kub2MxLi5hYWFhYWFhYTY0ZDRyb2QyY2dycWxleXNrZ2FvNHdrYmVvc3lscWVsbG1lcWJ2eHhreWJob25scmJna2EiLCJhdWQiOiJvY2kiLCJ0dHlwZSI6Ing1MDkiLCJvcGMtaW5zdGFuY2UiOiJvY2lkMS5pbnN0YW5jZS5vYzEuaWFkLmFudXdjbGpzcWNpaWNscWM0cWJlNmdkeHB0ZGt3ZTZxN3VrdjR1YmV5ZWNwd2J1Zmdqa2EyZnNqc25mcSIsImV4cCI6MTcyMTAwMzgxMywib3BjLWNvbXBhcnRtZW50Ijoib2NpZDEuY29tcGFydG1lbnQub2MxLi5hYWFhYWFhYXZ2M2lnY2g3cWhocGdkdmQ1bGR2bGZuNXJoNnRnYW14dmZmbXRpbmVkZzRoc3BibHFvY3EiLCJpYXQiOjE3MjA5OTc3ODksImp0aSI6ImY3OTVmZTEzLTFhYWQtNGUxYi05MjRmLWVhZDAzM2I3MDAzOSIsInRlbmFudCI6Im9jaWQxLnRlbmFuY3kub2MxLi5hYWFhYWFhYTY0ZDRyb2QyY2dycWxleXNrZ2FvNHdrYmVvc3lscWVsbG1lcWJ2eHhreWJob25scmJna2EiLCJqd2siOiJ7XCJraWRcIjpcIjI4OjMwOjk4OkYzOjc1Ojg4OjU3OkI1OjgyOjczOkQ2OkI3OkMyOkVBOkEwOjNFOjU3OkJEOjAyOjAwOjBBOkFGOjMyOjk4OjY5OjM5OjZGOjBDOkNDOjczOjI2OjFBXCIsXCJuXCI6XCJuTE4yQllKdEV2VnQ3UDVXRWRtTHNXNHZORkdPc2JjSmhQWkVfbTZRN05CSTJLekdDaEFXcXRJRENnc3ZPWnJidkNjamdpT0Iwc2k1ajAybTZzU1A5Mm5BM3hPV2V2aTZ2a0UtLUFCcDhKQU14TjBUMWMzWndETVpqcmtMUnBPcGNMc29ZODZHcUhpSG1uUUMxWE1iUVd1aEtoU21rdDBWb1prT1l2VXV4SDlZNDh0ajlOQ1BRUkZyOTh2V05kSldhSjdydEpEanVhOE9iVUo3cUhyclJGR0s5TkFCWTBSM2hraDQtVExKQ1BGR0stS254SG1DdkxLaTB2MTYxNTVLSnlhOFBZQmhMZm9CalcwUjVhbGtNa2xSVm1DSThac1EtNmdSM2tEbXpJRGdEU2RWd1NmRHJaNWplYi12WHNZTWZPa2t4NTdEMlhoU0VTQ3V5RGxBcndcIixcImVcIjpcIkFRQUJcIixcImt0eVwiOlwiUlNBXCIsXCJhbGdcIjpcIlJTMjU2XCIsXCJ1c2VcIjpcInNpZ1wifSIsIm9wYy10ZW5hbnQiOiJvY2lkMS50ZW5hbmN5Lm9jMS4uYWFhYWFhYWE2NGQ0cm9kMmNncnFsZXlza2dhbzR3a2Jlb3N5bHFlbGxtZXFidnh4a3liaG9ubHJiZ2thIn0.cQho_oD4l3o0NRJdKFFQexr5fcMEPk4-0OTngxGD2P5jwTVWKit760pAma9LxfZs_B8YYbgtxE7pRrAhxLcQDlRCDAZ1IVp3UQLC6ptYzAL9dAy1bs4DM1Z9ay5JioDFy4QibSNh0-Lz9alzkVLxUEv-VqipYp9TeKlLdRwCr4fixlr_RqmP7WX4ibGRCmC1uWfeTksFt6k6Ikf3C2stJb0RDoiJAF1rEBrRpQOOLaUdhnlXDNP9_5Pjmlh6bZYzMVtBTh2Ksd62UZID20wDU7S8GvjVtHv6A4FuSloi576aUc0LFGz48paClS2KRwo5aZWP8mcV4WQ-KVbkUo9uYA\",algorithm=\"rsa-sha256\",signature=\"*****\",version=\"1\""
+        ],
+        "date": [
+          "Sun, 14 Jul 2024 23:26:18 GMT"
+        ],
+        "opc-client-info": [
+          "Oracle-JavaSDK/2.70.0"
+        ],
+        "opc-client-retries": [
+          "true"
+        ],
+        "opc-request-id": [
+          "4373AC932D8548B0A064BF26D4DBC8DD"
+        ]
+      },
+      "id": "ams-1:zm-wCVyhk-EM941yvIqzJrg75yXgTUpTC-39TfwoIvS7KcRvwAP9RiMNufNHgCPS",
+      "parameters": {
+        "compartmentId": [
+          "ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq"
+        ],
+        "fields": [
+          "tags"
+        ],
+        "limit": [
+          "1000"
+        ],
+        "param0": [
+          "ociateam"
+        ]
+      },
+      "path": "/n/ociateam/b?compartmentId=ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq&limit=1000&fields=tags"
+    },
+    "resource_id": "/n/ociateam/b?compartmentId=ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq&limit=1000&fields=tags",
+    "resource_name": "/n/ociateam/b?compartmentId=ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq&limit=1000&fields=tags",
+    "response": {
+      "headers": {
+        "Content-Length": [
+          "2"
+        ],
+        "Content-Type": [
+          "application/json"
+        ],
+        "access-control-allow-credentials": [
+          "true"
+        ],
+        "access-control-allow-methods": [
+          "POST,PUT,GET,HEAD,DELETE,OPTIONS"
+        ],
+        "access-control-allow-origin": [
+          "*"
+        ],
+        "access-control-expose-headers": [
+          "access-control-allow-credentials,access-control-allow-methods,access-control-allow-origin,content-length,content-type,date,opc-client-info,opc-request-id,strict-transport-security,x-api-id,x-content-type-options"
+        ],
+        "date": [
+          "Sun, 14 Jul 2024 23:26:18 GMT"
+        ],
+        "opc-request-id": [
+          "ams-1:zm-wCVyhk-EM941yvIqzJrg75yXgTUpTC-39TfwoIvS7KcRvwAP9RiMNufNHgCPS"
+        ],
+        "strict-transport-security": [
+          "max-age=31536000; includeSubDomains"
+        ],
+        "x-api-id": [
+          "native"
+        ],
+        "x-content-type-options": [
+          "nosniff"
+        ]
+      },
+      "message": "List of buckets retrieved.",
+      "payload": {
+        "id": "/n/ociateam/b?compartmentId=ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq&limit=1000&fields=tags",
+        "resourceName": "/n/ociateam/b?compartmentId=ocid1.compartment.oc1..aaaaaaaa73434xrndmsl2ooscbt3hnexzap3sttf6nzhyg5i6kbjnqggnxcq&limit=1000&fields=tags"
+      },
+      "response_time": "2024-07-14T23:26:18.291000+00:00",
+      "status": "200"
+    },
+    "state_change": null
+  },
+  "event_id": "07b57978-a1a1-4c98-30ad-e3b204846e66",
+  "event_time": "2024-07-14T23:26:18.291000+00:00",
+  "event_type": "com.oraclecloud.objectstorage.listbuckets",
+  "event_type_version": "2.0",
+  "source": "ObjectStorage"
+}

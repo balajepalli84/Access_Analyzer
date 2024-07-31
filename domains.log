@@ -1,0 +1,996 @@
+users Name: [{
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {
+    "Oracle-Standard": {
+      "OwnerEmail": "christopher.johnson@oracle.com"
+    }
+  },
+  "description": "identityLAD",
+  "display_name": "identityLAD",
+  "freeform_tags": {},
+  "home_region": "sa-saopaulo-1",
+  "home_region_url": "https://idcs-2c4893bb17ba47c6a060c7d95f9f8ed3.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaafdqo6d3lhour4eoaizlsrwhyb4as55c5q62rp7gk6o7v2oca3ywa",
+  "is_hidden_on_login": false,
+  "license_type": "Oracle Identity Foundation Cloud Service - Each",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": null,
+  "time_created": "2022-08-18T00:06:40.484000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-2c4893bb17ba47c6a060c7d95f9f8ed3.identity.oraclecloud.com:443"
+}, {
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {
+    "Oracle-Standard": {
+      "OwnerEmail": "christopher.johnson@oracle.com"
+    }
+  },
+  "description": "identityAPAC",
+  "display_name": "identityAPAC",
+  "freeform_tags": {},
+  "home_region": "ap-sydney-1",
+  "home_region_url": "https://idcs-436d6bb17e434c4ea223c529d58805f8.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaamvjg7ggmq7o5w3tgvcoses54d3x3bacwy7uriohm4wbmqqxorpfa",
+  "is_hidden_on_login": false,
+  "license_type": "Oracle Identity Foundation Cloud Service - Each",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": null,
+  "time_created": "2022-08-18T00:08:30.128000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-436d6bb17e434c4ea223c529d58805f8.identity.oraclecloud.com:443"
+}, {
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {
+    "Oracle-Standard": {
+      "OwnerEmail": "christopher.johnson@oracle.com"
+    }
+  },
+  "description": "identityEMEA",
+  "display_name": "identityEMEA",
+  "freeform_tags": {},
+  "home_region": "eu-frankfurt-1",
+  "home_region_url": "https://idcs-974d661a715b4fe596c225f3f3a9013e.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaacjlcsa3yas4q6st6id3zrcw6paawj7dqcruv2vtzfp3avlwxcala",
+  "is_hidden_on_login": false,
+  "license_type": "Oracle Identity Foundation Cloud Service - Each",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": null,
+  "time_created": "2022-08-18T00:11:36.560000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-974d661a715b4fe596c225f3f3a9013e.identity.oraclecloud.com:443"
+}, {
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {},
+  "description": "Oracle identity cloud service added during account creation (Recreated by JMURMANN)",
+  "display_name": "OracleIdentityCloudService",
+  "freeform_tags": {},
+  "home_region": "us-phoenix-1",
+  "home_region_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-phoenix-idcs-2.identity.us-phoenix-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaaiudz3y5dreraot62acujhi52bziqczractkuw6xudwdikxrdb4ba",
+  "is_hidden_on_login": false,
+  "license_type": "enterprise",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": [
+    {
+      "region": "eu-amsterdam-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-stockholm-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-abudhabi-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-mumbai-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-paris-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-cardiff-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-dubai-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-frankfurt-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-saopaulo-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-hyderabad-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-ashburn-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-ashburn-idcs-1.identity.us-ashburn-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-ashburn-idcs-1.identity.us-ashburn-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-seoul-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-jeddah-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "af-johannesburg-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-osaka-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-london-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-milan-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-madrid-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-melbourne-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-marseille-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "il-jerusalem-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-tokyo-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-chicago-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "mx-queretaro-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-santiago-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-singapore-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-sanjose-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-sydney-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-vinhedo-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-chuncheon-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-montreal-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-toronto-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-zurich-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443"
+    }
+  ],
+  "time_created": "2023-07-15T17:09:07.821000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.identity.oraclecloud.com:443"
+}, {
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {},
+  "description": "Default domain",
+  "display_name": "Default",
+  "freeform_tags": {},
+  "home_region": "us-ashburn-1",
+  "home_region_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-ashburn-idcs-1.identity.us-ashburn-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaaxnj6cvggq23nmffpb2xekrqezvyztkstd6ffhjw4glrwuxfq2ozq",
+  "is_hidden_on_login": false,
+  "license_type": "oracle-apps",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": [
+    {
+      "region": "eu-amsterdam-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-stockholm-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-abudhabi-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-mumbai-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-paris-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-cardiff-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-dubai-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-frankfurt-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-saopaulo-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-hyderabad-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-seoul-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-jeddah-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "af-johannesburg-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-osaka-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-london-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-milan-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-madrid-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-melbourne-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-marseille-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "il-jerusalem-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-tokyo-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-chicago-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-phoenix-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-phoenix-idcs-3.identity.us-phoenix-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-phoenix-idcs-3.identity.us-phoenix-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "mx-queretaro-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-santiago-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-singapore-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-sanjose-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-sydney-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-vinhedo-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-chuncheon-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-montreal-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-toronto-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-zurich-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443"
+    }
+  ],
+  "time_created": "2023-07-15T18:18:21.194000+00:00",
+  "type": "DEFAULT",
+  "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.identity.oraclecloud.com:443"
+}]
+{
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {
+    "Oracle-Standard": {
+      "OwnerEmail": "christopher.johnson@oracle.com"
+    }
+  },
+  "description": "identityLAD",
+  "display_name": "identityLAD",
+  "freeform_tags": {},
+  "home_region": "sa-saopaulo-1",
+  "home_region_url": "https://idcs-2c4893bb17ba47c6a060c7d95f9f8ed3.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaafdqo6d3lhour4eoaizlsrwhyb4as55c5q62rp7gk6o7v2oca3ywa",
+  "is_hidden_on_login": false,
+  "license_type": "Oracle Identity Foundation Cloud Service - Each",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": null,
+  "time_created": "2022-08-18T00:06:40.484000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-2c4893bb17ba47c6a060c7d95f9f8ed3.identity.oraclecloud.com:443"
+}
+{
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {
+    "Oracle-Standard": {
+      "OwnerEmail": "christopher.johnson@oracle.com"
+    }
+  },
+  "description": "identityAPAC",
+  "display_name": "identityAPAC",
+  "freeform_tags": {},
+  "home_region": "ap-sydney-1",
+  "home_region_url": "https://idcs-436d6bb17e434c4ea223c529d58805f8.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaamvjg7ggmq7o5w3tgvcoses54d3x3bacwy7uriohm4wbmqqxorpfa",
+  "is_hidden_on_login": false,
+  "license_type": "Oracle Identity Foundation Cloud Service - Each",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": null,
+  "time_created": "2022-08-18T00:08:30.128000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-436d6bb17e434c4ea223c529d58805f8.identity.oraclecloud.com:443"
+}
+{
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {
+    "Oracle-Standard": {
+      "OwnerEmail": "christopher.johnson@oracle.com"
+    }
+  },
+  "description": "identityEMEA",
+  "display_name": "identityEMEA",
+  "freeform_tags": {},
+  "home_region": "eu-frankfurt-1",
+  "home_region_url": "https://idcs-974d661a715b4fe596c225f3f3a9013e.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaacjlcsa3yas4q6st6id3zrcw6paawj7dqcruv2vtzfp3avlwxcala",
+  "is_hidden_on_login": false,
+  "license_type": "Oracle Identity Foundation Cloud Service - Each",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": null,
+  "time_created": "2022-08-18T00:11:36.560000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-974d661a715b4fe596c225f3f3a9013e.identity.oraclecloud.com:443"
+}
+{
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {},
+  "description": "Oracle identity cloud service added during account creation (Recreated by JMURMANN)",
+  "display_name": "OracleIdentityCloudService",
+  "freeform_tags": {},
+  "home_region": "us-phoenix-1",
+  "home_region_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-phoenix-idcs-2.identity.us-phoenix-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaaiudz3y5dreraot62acujhi52bziqczractkuw6xudwdikxrdb4ba",
+  "is_hidden_on_login": false,
+  "license_type": "enterprise",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": [
+    {
+      "region": "eu-amsterdam-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-stockholm-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-abudhabi-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-mumbai-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-paris-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-cardiff-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-dubai-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-frankfurt-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-saopaulo-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-hyderabad-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-ashburn-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-ashburn-idcs-1.identity.us-ashburn-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-ashburn-idcs-1.identity.us-ashburn-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-seoul-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-jeddah-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "af-johannesburg-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-osaka-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-london-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-milan-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-madrid-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-melbourne-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-marseille-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "il-jerusalem-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-tokyo-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-chicago-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "mx-queretaro-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-santiago-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-singapore-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-sanjose-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-sydney-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-vinhedo-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-chuncheon-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-montreal-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-toronto-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-zurich-1",
+      "regional_url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443"
+    }
+  ],
+  "time_created": "2023-07-15T17:09:07.821000+00:00",
+  "type": "SECONDARY",
+  "url": "https://idcs-f29b958a146e4bdd9fef12a2e6a9ebcb.identity.oraclecloud.com:443"
+}
+{
+  "compartment_id": "ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq",
+  "defined_tags": {},
+  "description": "Default domain",
+  "display_name": "Default",
+  "freeform_tags": {},
+  "home_region": "us-ashburn-1",
+  "home_region_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-ashburn-idcs-1.identity.us-ashburn-1.oci.oraclecloud.com:443",
+  "id": "ocid1.domain.oc1..aaaaaaaaxnj6cvggq23nmffpb2xekrqezvyztkstd6ffhjw4glrwuxfq2ozq",
+  "is_hidden_on_login": false,
+  "license_type": "oracle-apps",
+  "lifecycle_details": null,
+  "lifecycle_state": "ACTIVE",
+  "replica_regions": [
+    {
+      "region": "eu-amsterdam-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-amsterdam-idcs-1.identity.eu-amsterdam-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-stockholm-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-stockholm-idcs-1.identity.eu-stockholm-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-abudhabi-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-abudhabi-idcs-1.identity.me-abudhabi-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-mumbai-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-mumbai-idcs-1.identity.ap-mumbai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-paris-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-paris-idcs-1.identity.eu-paris-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-cardiff-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-cardiff-idcs-1.identity.uk-cardiff-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-dubai-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-dubai-idcs-1.identity.me-dubai-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-frankfurt-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-frankfurt-idcs-1.identity.eu-frankfurt-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-saopaulo-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-saopaulo-idcs-1.identity.sa-saopaulo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-hyderabad-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-hyderabad-idcs-1.identity.ap-hyderabad-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-seoul-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-seoul-idcs-1.identity.ap-seoul-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "me-jeddah-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.me-jeddah-idcs-1.identity.me-jeddah-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "af-johannesburg-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.af-johannesburg-idcs-1.identity.af-johannesburg-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-osaka-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-osaka-idcs-1.identity.ap-osaka-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "uk-london-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.uk-london-idcs-1.identity.uk-london-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-milan-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-milan-idcs-1.identity.eu-milan-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-madrid-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-madrid-idcs-1.identity.eu-madrid-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-melbourne-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-melbourne-idcs-1.identity.ap-melbourne-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-marseille-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-marseille-idcs-1.identity.eu-marseille-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "il-jerusalem-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.il-jerusalem-idcs-1.identity.il-jerusalem-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-tokyo-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-tokyo-idcs-1.identity.ap-tokyo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-chicago-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-chicago-idcs-1.identity.us-chicago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-phoenix-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-phoenix-idcs-3.identity.us-phoenix-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-phoenix-idcs-3.identity.us-phoenix-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "mx-queretaro-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.mx-queretaro-idcs-1.identity.mx-queretaro-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-santiago-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-santiago-idcs-1.identity.sa-santiago-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-singapore-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-singapore-idcs-1.identity.ap-singapore-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "us-sanjose-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.us-sanjose-idcs-1.identity.us-sanjose-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-sydney-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-sydney-idcs-1.identity.ap-sydney-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "sa-vinhedo-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.sa-vinhedo-idcs-1.identity.sa-vinhedo-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ap-chuncheon-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ap-chuncheon-idcs-1.identity.ap-chuncheon-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-montreal-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-montreal-idcs-1.identity.ca-montreal-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "ca-toronto-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.ca-toronto-idcs-1.identity.ca-toronto-1.oci.oraclecloud.com:443"
+    },
+    {
+      "region": "eu-zurich-1",
+      "regional_url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443",
+      "state": "REPLICATION_ENABLED",
+      "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.eu-zurich-idcs-1.identity.eu-zurich-1.oci.oraclecloud.com:443"
+    }
+  ],
+  "time_created": "2023-07-15T18:18:21.194000+00:00",
+  "type": "DEFAULT",
+  "url": "https://idcs-8dd307747946491cbfe1b7a3f063db0d.identity.oraclecloud.com:443"
+}

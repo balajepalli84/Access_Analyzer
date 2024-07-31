@@ -1,0 +1,14 @@
+1) Least Privlege
+2) Track Config changes like who changed security group on what day? and expand the list to 
+	sing-on policy
+	passwordpolicy
+	idp federations
+	idp policies
+
+3) Identiy Anomalies - users doing action in regions they have no work.
+4) Compare usage patterns over time with previous years
+5) 
+
+
+
+ 
