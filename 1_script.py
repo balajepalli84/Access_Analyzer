@@ -2,6 +2,7 @@ import datetime
 import oci
 import xlwt
 import sys
+import re
 
 def get_subscription_regions(identity, tenancy_id):
     list_of_regions = []
@@ -93,6 +94,79 @@ def get_user_by_ocid(users_list, target_ocid):
             return user
     return user
 
+def get_filtered_policies(policies):
+    # Function to format the group name
+    def format_group_name(statement):
+        # Regular expression to find the group name after "allow group "
+        match = re.search(r'allow group (\S+)', statement)
+        if match:
+            group_name = match.group(1)
+            if '/' in group_name:
+                domain, group = group_name.split('/', 1)
+                # Check if the domain and group are already enclosed in quotes
+                if not (domain.startswith("'") and domain.endswith("'")):
+                    domain = f"'{domain}'"
+                if not (group.startswith("'") and group.endswith("'")):
+                    group = f"'{group}'"
+                formatted_group = f"{domain}/{group}"
+            else:
+                # Add 'default'/'groupname' if no domain is present
+                if not (group_name.startswith("'") and group_name.endswith("'")):
+                    formatted_group = f"'default'/'{group_name}'"
+                else:
+                    formatted_group = f"'default'/{group_name}"
+            # Replace the original group name with the formatted one
+            return statement.replace(group_name, formatted_group)
+        return statement
+
+    # Create a list to hold policy information
+    policy_info_list = []
+
+    # Process each policy
+    for policy in policies.data:
+        # Filter and format statements
+        filtered_statements = [
+            format_group_name(statement.lower()) 
+            for statement in policy.statements if 'allow group' in statement.lower()
+        ]
+        
+        if filtered_statements:
+            # Append the policy information to the list
+            policy_info_list.append({
+                'policy_name': policy.name,
+                'filtered_statements': filtered_statements
+            })
+
+    return policy_info_list
+def get_user_policies(user_info, policies):
+    domain_display_name = user_info['domain_display_name']
+    groups = user_info['groups']
+    
+    # Create a list to hold the results
+    results = []
+
+    # Iterate through each policy
+    for policy in policies:
+        policy_name = policy['policy_name']
+        filtered_statements = policy['filtered_statements']
+        
+        # Check each statement for the presence of the group names
+        for statement in filtered_statements:
+            for group in groups:
+                # Create the group name in the required format
+                formatted_group_name = f"'{domain_display_name}'/'{group}'"
+                formatted_group_name=formatted_group_name.lower()
+                # Check if the group name is in the statement
+                if formatted_group_name in statement:
+                    # Append the policy name and statement to the results             
+                    results.append({
+                        'policy_name': policy_name,
+                        'statement': statement
+                    })
+    
+    return results
+
+
 
 config = oci.config.from_file()
 tenancy_id = config["tenancy"]
@@ -133,6 +207,9 @@ for domain in domains:
     domain_users = list_domain_users(domain)
     all_users.extend(domain_users)
 
+policies = identity_client.list_policies(tenancy_id)
+policy_info_list = get_filtered_policies(policies)
+
 
 row_num = 1
 for r in regions:
@@ -142,6 +219,13 @@ for r in regions:
         for event in audit_events:
             if event.data.identity and event.data.identity.auth_type == 'natv': 
                 user_groups = get_user_by_ocid(all_users,event.data.identity.principal_id)   
+                user_policies = get_user_policies(user_groups,policy_info_list)
+                with open(r'C:\Security\Blogs\Access_Analyzer\logs\user_policy_stmt.log', 'a') as file:
+                    file.write(f"user_groups: {user_groups}\n")      
+                    file.write(f"user_policies: {user_policies}\n")  
+                    file.write(f"----------------------------------\n")  
+
+                #here send user_group info to a fn and match matchin polcies and add them next to the user
                 formatted_event = format_audit_event(r, event, user_groups)
                 event_id = (formatted_event["Region"], formatted_event["Compartment ID"], formatted_event["Event Name"], formatted_event["Principal ID"], formatted_event["Event Type"])
                 
